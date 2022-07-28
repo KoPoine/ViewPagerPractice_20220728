@@ -9,6 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textSize="32sp"
         android:text="제 전화번호는\n010-2977-3754입니다."/>
 
 </LinearLayout>
