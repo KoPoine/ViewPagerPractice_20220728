@@ -1,6 +1,7 @@
 package com.neppplus.viewpagerpractice_20220728.fragments
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,5 +17,4 @@ class BirthYearFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_birth_year, container, false)
     }
-
 }
