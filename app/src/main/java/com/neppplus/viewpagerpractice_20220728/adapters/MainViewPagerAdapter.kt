@@ -23,4 +23,12 @@ class MainViewPagerAdapter(
             else -> PhoneFragment()
         }
     }
+
+    override fun getPageTitle(position: Int): CharSequence? {
+        return when (position) {
+            0 -> "이름"
+            1 -> "생년"
+            else -> "전화번호"
+        }
+    }
 }
